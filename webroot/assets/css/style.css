@@ -1,0 +1,230 @@
+@import url(fonts/opensans/css.css);
+@import url(fonts/homizio-nova/css.css);
+@import url(../plugins/datepicker/datepicker.css);
+@import url(../plugins/font-awesome-4.2.0/css/font-awesome.min.css);
+@import url(../plugins/icheck/skins/square/blue.css);
+@import url(../plugins/gritter/css/jquery.gritter.css);
+@import url(../plugins/selectize/selectize.css);
+@import url(../plugins/validation-engine/validation.css);
+
+body {
+	font-family: 'Open Sans';
+	overflow-y: scroll;
+}
+
+.table {
+	font-size: 12px;
+}
+
+h3.table-title {
+	font-family: 'Homizio Nova';
+	letter-spacing: 1.5px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+table.center td,
+table.center th {
+	text-align: center;
+}
+
+table.vcenter td,
+table.vcenter th {
+	vertical-align: middle !important;
+}
+table.table-form {
+	width: 100%;
+	margin-bottom: 15px;
+}
+table.table-form td, table.table-form th {
+	padding: 0px 15px 5px 15px;
+}
+td.form-label, th.form-label {
+	padding-bottom: 5px;
+}
+.span12 {
+	width:100%;
+}
+.span6 {
+	width:50%;
+}
+.span4 {
+	width:33.33%;
+}
+.span3 {
+	width:25%;
+}
+.span2 {
+	width:16.66%;
+}
+.vtop {
+	vertical-align: top !important;
+}
+
+.btn-min {
+	min-width: 120px;
+}
+
+.no-border-top td,
+.no-border-top th {
+	border-top: none !important;
+}
+
+tr.no-padding-top-bottom td,
+tr.no-padding-top-bottom th {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.no-border-radius {
+	border-radius: 0px !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.text-left {
+	text-align: left !important;
+}
+/* CUSTOM */
+.header {
+	padding-top: 15px;
+}
+
+.header .header-sub-wrapper, .header .header-sub-wrapper-2 {
+	padding: 0px 30px;
+	border-bottom: 2px solid #EEE;
+}
+
+.header .header-sub-wrapper-2 {
+	padding-left: 0px;
+}
+.header .logo-link, .header .logo-link:hover {
+	color: #595959;
+	text-decoration: none;
+}
+.header a #logo {
+	color: #595959;
+	font-size: 47px;
+	font-family: 'Homizio Nova Light';
+	text-align: center;
+	line-height: 1;
+}
+
+.header a #title {
+	color: #8F8F8F;;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-default {
+	background: none;
+	border: none;
+}
+
+.main {
+	width: 100%;
+	margin-top: 40px;
+}
+
+
+.navbar-nav a {
+	font-size: 12px;
+	font-weight: 400;
+}
+.user-info > div {
+	text-align: center;
+}
+.user-image {
+	text-align: center;
+}
+
+.user-image img {
+	display: inline-block;
+	border: 2px solid #EEE;
+}
+.user-name {
+	padding: 8px 0px;
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Homizio Nova Light';
+	letter-spacing: 1px;
+}
+.user-department {
+	padding: 4px 0px;
+	font-size: 18px;
+	font-family: 'Homizio Nova Light';
+	letter-spacing: 1.5px;
+}
+.user-designation {
+	font-family: 'Homizio Nova Light';
+	letter-spacing: 1.5px;
+}
+.menu-icon {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+.menu-icon > i {
+	font-size: 24px;
+}
+
+.new-application > i {
+	font-size: 70px;
+}
+
+.logout {
+	color: #333;
+	font-size:12px;
+	-webkit-transform: ease 500ms;
+}
+
+.logout:hover {
+	text-decoration: none;
+}
+
+.system-title {
+	padding-top: 30px;
+	font-family: 'Homizio Nova Light';
+	font-size: 18px;
+	color: #626262;
+	letter-spacing: 1.5px;
+}
+
+.modal-title {
+	font-family: 'Homizio Nova';
+	letter-spacing: 1px;
+}
+
+.nav-tabs > li {
+	font-size: 12px;
+}
+.sign-out {
+	padding: 0px 0px 15px 0px;
+}
+#time {
+	font-family: 'Homizio Nova Light';
+	font-size: 24px;
+	letter-spacing: 1.5px;
+	padding: 15px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: 1px solid #EEE;
+}
+
+.search {
+	font-size: 11px;
+}
+
+.fee-amount {
+	font-size:12px;
+}
+
+.normal {
+	font-weight: normal;
+}
+.italic {
+	font-style: italic;
+}

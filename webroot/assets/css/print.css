@@ -1,0 +1,56 @@
+table.requirements {
+	width: 100%;
+}
+
+.state, .province, .city ,
+.office, .permit-number,
+.quote, .permit-label, .permit-value,
+.permit-title, .mayors-name, .municiapl-mayor,
+.ambulant-image {
+	text-align: center;
+}
+
+.header {
+	padding-top: 10px;
+}
+.quote {
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+.mayor-image {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.applicant-image {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+.office {
+	font-size: 18px;
+}
+
+.permit-number {
+	font-size: 40px;
+}
+
+.permit-value {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+.permit-field {
+	padding-top: 15px;
+}
+
+.permit-table {
+	padding-top: 30px;
+}
