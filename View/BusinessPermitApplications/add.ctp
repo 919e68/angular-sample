@@ -421,40 +421,8 @@
 					</div>
 					<hr>
 					
-					<div class="row">
-						<div class="col-md-4">
-							<div class="form-group">
-								<label>Gender</label>
-								<select class="form-control" data-validation-engine="validate[required]" ng-model="data.BusinessOwner.gender">
-									<option value=""></option>
-									<option value="Male">Male</option>
-									<option value="Female">Female</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-								<label>Home Contact #</label>
-								<input type="text" class="form-control" data-validation-engine="validate[required]" ng-model="data.BusinessOwner.contact_number">
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-								<label>Email</label>
-								<input type="text" class="form-control" ng-model="data.BusinessOwner.email">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label>Home Address</label>
-								<input type="text" class="form-control" data-validation-engine="validate[required]" ng-model="data.BusinessOwner.address">
-							</div>
-						</div>
-					</div>
-					<hr>
-					<div class="row">
+
+					<!-- <div class="row">
 						<div class="col-md-4">
 							<div class="form-group">
 								<label>Business Type</label>
@@ -535,7 +503,7 @@
 								<input type="file" class="form-control" name="data[image]" data-validation-engine="validate[required]">
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<hr>
 					<div class="row">
 						<div class="col-md-3 pull-right">
